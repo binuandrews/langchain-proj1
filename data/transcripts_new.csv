@@ -1,0 +1,31 @@
+call_id,agent_name,transcript,expected_call_type
+1,Alice,Customer: I was charged twice for my premium this month. Agent: Let me check that for you...,billing
+2,Bob,Customer: My claim has been pending for 2 weeks. Agent: I understand your concern...,claims
+3,Charlie,Customer: This is the third time I'm calling! Nothing is resolved. Agent: I apologize for the inconvenience...,complaint
+4,Diana,"Customer: Can you explain my coverage details? Agent: Sure, let me walk you through...",general_query
+5,Ethan,"Customer: I noticed two charges for my monthly premium. Agent: I can review the recent payments and help identify the duplicate.",billing
+6,Fiona,"Customer: I paid my bill last week but it still shows as overdue. Agent: I'll check whether the payment has posted to your account.",billing
+7,George,"Customer: Could you tell me when my next premium payment is due? Agent: Your billing schedule is available here and I can go over it with you.",billing
+8,Hannah,"Customer: I was charged the old rate after my plan changed. Agent: Let me compare the charge with your updated plan.",billing
+9,Isaac,"Customer: I need a copy of the receipt for my last payment. Agent: I can help you find and download that receipt.",billing
+10,Jasmine,"Customer: My reimbursement claim has been waiting for an update for three weeks. Agent: I understand the delay is frustrating and I'll check its status.",claims
+11,Kevin,"Customer: The claim portal says my documents are missing but I uploaded them. Agent: I'll review the submission and explain what is still needed.",claims
+12,Lena,"Customer: I submitted a claim for my recent appointment. Agent: I can walk you through the review process and expected next steps.",claims
+13,Marcus,"Customer: Why was only part of my claim approved? Agent: Let me review the decision and explain how the covered amount was determined.",claims
+14,Nora,"Customer: I sent the requested paperwork but haven't heard back about my claim. Agent: I'll check whether the documents were received.",claims
+15,Oliver,"Customer: I have called several times and nobody has fixed the problem with my account. Agent: I'm sorry this has taken multiple calls; I'll work with you to resolve it.",complaint
+16,Paula,"Customer: I was promised a callback yesterday and nobody contacted me. Agent: I apologize that we missed the callback and understand why you're upset.",complaint
+17,Quinn,"Customer: This is unacceptable; the same error keeps appearing every time I sign in. Agent: I'm sorry this issue is continuing. I'll document it and help troubleshoot.",complaint
+18,Rachel,"Customer: I have explained this problem three times and still have no answer. Agent: I understand your frustration and apologize for the repeated effort.",complaint
+19,Samuel,"Customer: Your representative gave me the wrong information and now my service is delayed. Agent: I'm sorry for the confusion and the impact on your service.",complaint
+20,Tara,"Customer: What does my plan include for specialist visits? Agent: I can explain the specialist coverage listed in your plan.",general_query
+21,Uma,"Customer: How can I update the phone number on my account? Agent: You can change it in your profile settings or I can guide you through the steps.",general_query
+22,Victor,"Customer: What are your office hours this weekend? Agent: Our weekend hours are listed here and I can confirm the schedule for you.",general_query
+23,Wendy,"Customer: Can I add a family member to my current plan? Agent: I can explain the eligibility requirements and how to submit the request.",general_query
+24,Xavier,"Customer: Where can I find the forms I need to complete? Agent: I'll direct you to the forms section and explain which one to use.",general_query
+25,Yara,"Customer: I was billed for an add-on that I don't remember selecting. Agent: I'll review the itemized bill and explain how to dispute an incorrect charge.",billing
+26,Zane,"Customer: My automatic payment did not go through and I want to avoid a late fee. Agent: I can check the payment status and review your options for paying now.",billing
+27,Alice,"Customer: Can you confirm that my refund was issued? Agent: I'll look up the refund and tell you when it should appear.",billing
+28,Bob,"Customer: My claim was denied and I don't understand the reason. Agent: I can review the explanation and describe the appeal process.",claims
+29,Charlie,"Customer: I was transferred twice and still haven't received help. Agent: I'm sorry you had to repeat yourself. I'll take ownership of this issue.",complaint
+30,Diana,"Customer: Does my coverage include a yearly wellness visit? Agent: I can check your plan details and explain the wellness visit benefit.",general_query
